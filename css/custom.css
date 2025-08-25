@@ -1,8 +1,0 @@
-/* 强制隐藏所有包含“图床”文字的侧栏元素 */
-#sidebar .sidebar-item:contains("图床") {
-  display: none !important;
-}
-/* 若知道图床链接的URL，可针对性隐藏 */
-#sidebar a[href*="image.anheyu.com"] {
-  display: none !important;
-}
